@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: pink; /* Set the background color to pink */
+    color: #333;
+    line-height: 1.6;
+    text-align: center; /* Center all text on the page */
+}
+
+/* Header */
+.header {
+    background: #ff69b4; /* Hot pink for the header */
+    color: white;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: inline-block; /* Center the nav links */
+    text-align: center;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 50px 20px;
+    background-color: #ffe4e1; /* Light pink for the hero section */
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.hero-section h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Posts Section */
+.posts-section {
+    margin: 20px 0;
+}
+
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the posts */
+    gap: 20px;
+}
+
+.post {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 300px;
+    text-align: center; /* Center text in posts */
+    transition: transform 0.3s ease;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+}
+
+.post h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.post p {
+    color: #777;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff69b4; /* Hot pink button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+}
+
+/* Info Sections */
+.info-section {
+    padding: 20px;
+    margin: 30px 0;
+    background-color: #ffe4e1; /* Light pink background for info sections */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.info-section h2 {
+    color: #333;
+}
+
+.info-section p {
+    color: #555;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #ff69b4; /* Hot pink footer */
+    color: white;
+    padding: 15px 0;
+    margin-top: 30px;
+}
